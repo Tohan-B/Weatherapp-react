@@ -46,16 +46,7 @@ export default function WeatherApp() {
             <span className="temperature">
               <strong id="temperature">19</strong>
             </span>
-            <span className="units">
-              <a href="" id="celcius-link" className="active">
-                {" "}
-                °C{" "}
-              </a>
-              /
-              <a href="#" id="fahrenheit-link">
-                °F
-              </a>
-            </span>
+            <span className="units"> °C °F</span>
           </div>
         </div>
         <div className="col-6">
