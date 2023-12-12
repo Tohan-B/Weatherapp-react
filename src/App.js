@@ -6,6 +6,7 @@ function App() {
     <div className="container">
       <div className="weather-app">
         <WeatherApp />
+        </div>
         <footer>
           <small class="author-info">
             <a
@@ -18,7 +19,7 @@ function App() {
             , by Blessing Itohan
           </small>
         </footer>
-      </div>
+      
     </div>
   );
 }
