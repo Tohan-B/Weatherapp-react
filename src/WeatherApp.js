@@ -15,7 +15,7 @@ export default function WeatherApp(props) {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
-
+      icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       city: response.data.name,
     });
@@ -71,9 +71,6 @@ export default function WeatherApp(props) {
           </button>
         </div>
         <WeatherInfo data={weatherData} />
-        <br />
-
-        <div className="weather-forecast" id="weather-forecast"></div>
       </div>
     );
   } else {
