@@ -81,22 +81,10 @@ li {
   margin-left: 250px;
 }
 
-.weather-forecast-day {
-  margin-bottom: 0px;
-  padding-left: 10px;
-  font-size: 16px;
-  opacity: 0.5;
+.temperature a {
+  text-decoration: none;
 }
 
-.weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: #000;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.5;
-}
 .writeup-color {
   color: #8b307f;
 }
