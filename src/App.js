@@ -1,12 +1,13 @@
 import "./App.css";
 import WeatherApp from "./WeatherApp";
+import Logo from "./Logo.png";
 
 export default function App() {
   return (
-    <div className="container">
-      <div className="weather-app">
-        <WeatherApp defaultCity="Lagos" />
-      </div>
+    <div className="weather-app">
+      <img src={Logo} alt="Logo" className="logo" />
+
+      <WeatherApp defaultCity="Lagos" />
       <footer>
         This project was coded by{" "}
         <a

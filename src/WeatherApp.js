@@ -63,8 +63,10 @@ export default function WeatherApp(props) {
             </div>
           </div>
         </form>
-
+        <br></br>
+        <br></br>
         <WeatherInfo data={weatherData} />
+        <br></br>
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
