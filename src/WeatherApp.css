@@ -43,12 +43,6 @@ li {
   margin: 20px 0;
 }
 
-.weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-}
-
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
@@ -57,20 +51,15 @@ li {
   margin-left: 10px;
 }
 
+.weather-temperature a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
-}
-
-.active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-  text-decoration: none;
-}
-
-.active:hover {
-  text-decoration: none;
 }
 
 .search-form {
@@ -81,12 +70,14 @@ li {
   margin-left: 250px;
 }
 
-.temperature a {
-  text-decoration: none;
+.other-weather-info {
+  color: #8b307f;
 }
 
-.writeup-color {
-  color: #8b307f;
+footer {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 30px;
 }
 
 /* Media Queries */

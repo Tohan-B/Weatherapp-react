@@ -24,11 +24,11 @@ export default function WeatherInfo(props) {
           <ul>
             <li>
               Humidity: <span id="humidity">{props.data.humidity}</span>
-              <span className="writeup-color">%</span>
+              <span className="other-weather-info">%</span>
             </li>
             <li>
               Wind: <span id="wind"> {props.data.wind}</span>
-              <span className="writeup-color">km/h</span>
+              <span className="other-weather-info">km/h</span>
             </li>
           </ul>
         </div>
