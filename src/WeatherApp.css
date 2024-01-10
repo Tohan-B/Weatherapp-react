@@ -146,6 +146,6 @@ footer a {
 /* For screens from 768px and above */
 @media (min-width: 768px) {
   .weather-app {
-    margin: 100px 150px 10px 250px;
+    margin: 100px 152px 100px 152px;
   }
 }
