@@ -6,8 +6,9 @@
 
 .WeatherForecast-day {
   margin-bottom: 0px;
+  color: #27214266;
   font-size: 16px;
-  opacity: 0.5;
+  line-height: 20px;
 }
 
 .WeatherForecast-temperature-min {
