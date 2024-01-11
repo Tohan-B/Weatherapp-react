@@ -50,7 +50,7 @@ export default function WeatherApp(props) {
                 autoFocus="on"
                 autoComplete="off"
                 id="city-input"
-                className="form-control shadow-sm city"
+                className="form-control shadow-sm form-field"
                 onChange={handleCityChange}
               />
             </div>

@@ -6,8 +6,8 @@ import WeatherTemprature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div>
-      <div className="row column-gap">
-        <div className="col-8">
+      <div className="row ">
+        <div className="col-sm-8">
           <h1 id="city">{props.data.city}</h1>
           <ul className="date-and-description-section">
             <li id="date">
@@ -26,7 +26,7 @@ export default function WeatherInfo(props) {
             </li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-sm-4">
           <div className="clearfix weather-temperature">
             <WeatherIcon code={props.data.icon} size={52} />
             <WeatherTemprature celsius={props.data.temperature} />

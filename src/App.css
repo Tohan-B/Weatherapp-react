@@ -3,3 +3,12 @@
   height: 70px;
   margin: 40px;
 }
+
+body {
+  background: #f9f7fe;
+}
+
+.App {
+  max-width: 800px;
+  margin: 60px auto;
+}
